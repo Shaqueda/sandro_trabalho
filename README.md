@@ -2,14 +2,14 @@
 
 Este é um aplicativo simples desenvolvido em Python com interface gráfica usando `Tkinter`, que permite remover o fundo de imagens com um clique, utilizando a biblioteca `rembg`.
 
-## 🖼️ Funcionalidades
+##  Funcionalidades
 
 - Selecionar uma imagem de entrada (`.png`, `.jpg`, `.jpeg`)
 - Escolher onde salvar a imagem com o fundo removido
 - Remover o fundo da imagem com um clique
 - Interface gráfica amigável e intuitiva
 
-## 💻 Tecnologias utilizadas
+##  Tecnologias utilizadas
 
 - Python 3.8+
 - [rembg](https://github.com/danielgatis/rembg)
@@ -18,7 +18,7 @@ Este é um aplicativo simples desenvolvido em Python com interface gráfica usan
 - numpy
 - onnxruntime
 
-## ⚙️ Instalação
+##  Instalação
 
 1. **Clone ou baixe os arquivos do projeto.**
 
@@ -35,7 +35,7 @@ venv\Scripts\activate  # No Windows
 pip install rembg pillow numpy onnxruntime
 ```
 
-## ▶️ Como usar
+##  Como usar
 
 1. Execute o arquivo `app.py`:
 
@@ -48,7 +48,7 @@ python app.py
    - Clique em **"Escolher local para salvar"** e selecione onde salvar a imagem com fundo removido.
    - Clique em **"Remover Fundo"** para processar a imagem.
 
-## 📦 Como gerar um executável (.exe)
+##  Como gerar um executável (.exe)
 
 Se quiser transformar o projeto em um executável para Windows:
 
@@ -59,7 +59,7 @@ pyinstaller --onefile --noconsole app.py
 
 O executável será gerado na pasta `dist`.
 
-## 📁 Estrutura básica do projeto
+##  Estrutura básica do projeto
 
 ```
 removedor-fundo/
